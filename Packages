@@ -6,3 +6,9 @@ Filename: pool/main/nano
 Size: 1880888
 MD5sum: bddf0602a1178014be31a840a0b0c7e9
 
+Package: nnn
+Version: 1.0
+Filename: pool/main/nnn
+Size: 207088
+MD5sum: 256568532927c7a06c80ff2bb86d0b8a
+
