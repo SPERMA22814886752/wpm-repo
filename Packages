@@ -1,5 +1,11 @@
 # WPM Packages
 
+Package: lynx
+Version: 1.0
+Filename: pool/main/lynx
+Size: 10005952
+MD5sum: f15fdb07abb313c5f1d85eb333633370
+
 Package: nano
 Version: 1.0
 Filename: pool/main/nano
