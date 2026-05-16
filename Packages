@@ -1,5 +1,11 @@
 # WPM Packages
 
+Package: eiwd
+Version: 1.0
+Filename: pool/main/eiwd
+Size: 1334712
+MD5sum: dd938b485d28c9e3938501d9e8b13730
+
 Package: lynx
 Version: 1.0
 Filename: pool/main/lynx
