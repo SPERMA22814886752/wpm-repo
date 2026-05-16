@@ -1,0 +1,61 @@
+name: Update Packages file
+
+on:
+  push:
+    paths:
+      - 'pool/main/**'  # когда что-то меняется в pool/main
+    branches:
+      - main
+  workflow_dispatch:  # позволяет запускать вручную
+
+jobs:
+  update-packages:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # нужно для коммита обратно в репо
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Generate Packages file
+        run: |
+          echo "Generating Packages file..."
+          
+          # очищаем или создаём файл Packages
+          > Packages
+          
+          # Проходим по всем файлам в pool/main/
+          for file in pool/main/*; do
+            if [ -f "$file" ] && [ ! -L "$file" ]; then
+              filename=$(basename "$file")
+              size=$(stat -c%s "$file")
+              md5=$(md5sum "$file" | cut -d' ' -f1)
+              
+              # Определяем версию (можно вынести в отдельный файл или парсить из имени)
+              # Пока ставим 1.0 для всех
+              version="1.0"
+              
+              echo "Processing: $filename"
+              
+              # Записываем информацию о пакете
+              cat >> Packages << EOF
+Package: $filename
+Version: $version
+Filename: $file
+Size: $size
+MD5sum: $md5
+
+EOF
+            fi
+          done
+          
+          echo "Done! Packages file generated with $(grep -c '^Package:' Packages) packages."
+      
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add Packages
+          git diff --staged --quiet || git commit -m "chore: update Packages file [skip ci]"
+          git push
