@@ -17,14 +17,6 @@ Size: 1334712
 MD5sum: dd938b485d28c9e3938501d9e8b13730
 DestDir: bin
 
-Package: Cz
-Version: 1.0
-Type: bin
-Filename: pool/main/lib/Cz
-Size: 4
-MD5sum: 9e2b2f974db71866154a9e544d14db9a
-DestDir: bin
-
 Package: libcurl.a
 Version: 1.0
 Type: lib
