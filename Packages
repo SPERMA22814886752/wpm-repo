@@ -1,5 +1,11 @@
 # WPM Packages
 
+Package: curl
+Version: 1.0
+Filename: pool/main/curl
+Size: 7863520
+MD5sum: 0d65dfa526bcdda95017275e833009ac
+
 Package: eiwd
 Version: 1.0
 Filename: pool/main/eiwd
@@ -18,9 +24,69 @@ Filename: pool/main/nano
 Size: 1880888
 MD5sum: bddf0602a1178014be31a840a0b0c7e9
 
+Package: nano-X
+Version: 1.0
+Filename: pool/main/nano-X
+Size: 1483048
+MD5sum: 45c3cb2255c169865b00391a5b21779f
+
 Package: nnn
 Version: 1.0
 Filename: pool/main/nnn
 Size: 207088
 MD5sum: 256568532927c7a06c80ff2bb86d0b8a
+
+Package: nxcalc
+Version: 1.0
+Filename: pool/main/nxcalc
+Size: 913728
+MD5sum: c684ec8134f004c5422d3e929c0932ad
+
+Package: nxclock
+Version: 1.0
+Filename: pool/main/nxclock
+Size: 1012576
+MD5sum: 807cc9494e22eeac501a8e688137d405
+
+Package: nxeyes
+Version: 1.0
+Filename: pool/main/nxeyes
+Size: 938648
+MD5sum: 8912040111ab8b7a8fe5c241c709aafe
+
+Package: nxkbd
+Version: 1.0
+Filename: pool/main/nxkbd
+Size: 864432
+MD5sum: 5d0690f30e0e404ca906188b709301b0
+
+Package: nxlaunch
+Version: 1.0
+Filename: pool/main/nxlaunch
+Size: 872752
+MD5sum: e4e3275bb948a811f1920f499b3cedc3
+
+Package: nxmine
+Version: 1.0
+Filename: pool/main/nxmine
+Size: 876936
+MD5sum: c6173a31f9e318c55d9f7c10ac702637
+
+Package: nxterm
+Version: 1.0
+Filename: pool/main/nxterm
+Size: 883120
+MD5sum: d7e571708c45f191b8ec89178a19af31
+
+Package: nxtetris
+Version: 1.0
+Filename: pool/main/nxtetris
+Size: 909920
+MD5sum: 39d6eb3dbd0ff7f00a70ed19a8f714d7
+
+Package: openssl
+Version: 1.0
+Filename: pool/main/openssl
+Size: 8132528
+MD5sum: 659c5b5db6cda578f59352ab14ef3b36
 
