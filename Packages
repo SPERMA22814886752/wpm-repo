@@ -17,6 +17,22 @@ Size: 1334712
 MD5sum: dd938b485d28c9e3938501d9e8b13730
 DestDir: bin
 
+Package: Cz
+Version: 1.0
+Type: bin
+Filename: pool/main/lib/Cz
+Size: 4
+MD5sum: 9e2b2f974db71866154a9e544d14db9a
+DestDir: bin
+
+Package: libcurl.a
+Version: 1.0
+Type: lib
+Filename: pool/main/lib/libcurl.a
+Size: 1457834
+MD5sum: 1faea57730563561109d0efaee07d947
+DestDir: lib
+
 Package: lynx
 Version: 1.0
 Type: bin
@@ -122,4 +138,4 @@ MD5sum: 659c5b5db6cda578f59352ab14ef3b36
 DestDir: bin
 
 
-# Total packages: 15
+# Total packages: 17
