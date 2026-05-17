@@ -3,9 +3,7 @@ name: Update Packages
 on:
   push:
     paths:
-      - 'pool/**'
-      - 'pool/main/lib/**'
-      - 'pool/main/include/**'
+      - 'pool/main/**'
     branches:
       - main
   workflow_dispatch:
