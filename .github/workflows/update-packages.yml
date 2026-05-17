@@ -4,8 +4,8 @@ on:
   push:
     paths:
       - 'pool/**'
-      - 'lib/**'
-      - 'include/**'
+      - 'pool/main/lib/**'
+      - 'pool/main/include/**'
     branches:
       - main
   workflow_dispatch:
