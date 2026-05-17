@@ -9,6 +9,14 @@ Size: 7863520
 MD5sum: 0d65dfa526bcdda95017275e833009ac
 DestDir: bin
 
+Package: neofetch
+Version: 1.0
+Type: script
+Filename: pool/main/neofetch
+Size: 379618
+MD5sum: c31aedd69c068436456058bb301c18a6
+DestDir: bin
+
 Package: eiwd
 Version: 1.0
 Type: bin
