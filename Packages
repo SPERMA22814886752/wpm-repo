@@ -9,14 +9,6 @@ Size: 7863520
 MD5sum: 0d65dfa526bcdda95017275e833009ac
 DestDir: bin
 
-Package: neofetch
-Version: 1.0
-Type: script
-Filename: pool/main/neofetch
-Size: 379618
-MD5sum: c31aedd69c068436456058bb301c18a6
-DestDir: bin
-
 Package: eiwd
 Version: 1.0
 Type: bin
@@ -145,5 +137,13 @@ Size: 8132528
 MD5sum: 659c5b5db6cda578f59352ab14ef3b36
 DestDir: bin
 
+Package: spm
+Version: 1.0
+Type: bin
+Filename: pool/main/spm
+Size: 9434051
+MD5sum: 2428c22506a26da3ed3efbf8541dbab3
+DestDir: bin
 
-# Total packages: 17
+
+# Total packages: 18
