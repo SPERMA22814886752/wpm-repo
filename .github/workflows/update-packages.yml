@@ -34,7 +34,6 @@ jobs:
               if echo "$rel" | grep -qE '^libc/so/[^/]+/'; then
                 type="so"
                 destdir="lib"
-                # имя пакета = имя папки (компонент после libc/so/)
                 pkgname=$(echo "$rel" | cut -d'/' -f3)
               elif echo "$rel" | grep -qE '^libc/a/[^/]+/'; then
                 type="a"
@@ -42,14 +41,11 @@ jobs:
                 pkgname=$(echo "$rel" | cut -d'/' -f3)
               else
                 # --- Обычные пакеты ---
-                # Для .tar.gz – тип dir (пакет-каталог)
                 if echo "$f" | grep -qE '\.tar\.gz$'; then
                   type="dir"
                   destdir="bin"
-                  # имя = имя файла без .tar.gz
                   pkgname=$(basename "$f" .tar.gz)
                 else
-                  # Одиночные файлы – тип по расширению
                   name=$(basename "$f")
                   case "$name" in
                     *.a)
@@ -58,6 +54,10 @@ jobs:
                       ;;
                     *.so|*.so.*)
                       type="so"
+                      destdir="lib"
+                      ;;
+                    *.la)                     # libtool archive
+                      type="la"
                       destdir="lib"
                       ;;
                     *.h|*.hpp)
@@ -84,7 +84,6 @@ jobs:
                 echo "Size: $size"
                 echo "MD5sum: $md5"
                 echo "DestDir: $destdir"
-                # Поля libc пока оставляем пустыми, их можно добавить вручную
                 echo "libc: no"
                 echo ""
               } >> Packages
@@ -106,6 +105,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: update Packages with libc structure"
+            git commit -m "chore: update Packages (add .la support)"
             git push
           fi
