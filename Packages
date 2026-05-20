@@ -8,6 +8,7 @@ Filename: pool/main/curl
 Size: 7863520
 MD5sum: 0d65dfa526bcdda95017275e833009ac
 DestDir: bin
+libc: no
 
 Package: eiwd
 Version: 1.0
@@ -16,6 +17,7 @@ Filename: pool/main/eiwd
 Size: 1334712
 MD5sum: dd938b485d28c9e3938501d9e8b13730
 DestDir: bin
+libc: no
 
 Package: libcurl.a
 Version: 1.0
@@ -24,6 +26,16 @@ Filename: pool/main/lib/libcurl.a
 Size: 1457834
 MD5sum: 1faea57730563561109d0efaee07d947
 DestDir: lib
+libc: no
+
+Package: time
+Version: 1.0
+Type: bin
+Filename: pool/main/lib/so/time
+Size: 1
+MD5sum: 68b329da9893e34099c7d8ad5cb9c940
+DestDir: bin
+libc: no
 
 Package: lynx
 Version: 1.0
@@ -32,6 +44,7 @@ Filename: pool/main/lynx
 Size: 10005952
 MD5sum: f15fdb07abb313c5f1d85eb333633370
 DestDir: bin
+libc: no
 
 Package: nano
 Version: 1.0
@@ -40,6 +53,7 @@ Filename: pool/main/nano
 Size: 1880888
 MD5sum: bddf0602a1178014be31a840a0b0c7e9
 DestDir: bin
+libc: no
 
 Package: nano-X
 Version: 1.0
@@ -48,6 +62,7 @@ Filename: pool/main/nano-X
 Size: 1483048
 MD5sum: 45c3cb2255c169865b00391a5b21779f
 DestDir: bin
+libc: no
 
 Package: neofetch
 Version: 1.0
@@ -56,6 +71,7 @@ Filename: pool/main/neofetch
 Size: 379618
 MD5sum: c31aedd69c068436456058bb301c18a6
 DestDir: bin
+libc: no
 
 Package: nnn
 Version: 1.0
@@ -64,6 +80,7 @@ Filename: pool/main/nnn
 Size: 207088
 MD5sum: 256568532927c7a06c80ff2bb86d0b8a
 DestDir: bin
+libc: no
 
 Package: nxcalc
 Version: 1.0
@@ -72,6 +89,7 @@ Filename: pool/main/nxcalc
 Size: 913728
 MD5sum: c684ec8134f004c5422d3e929c0932ad
 DestDir: bin
+libc: no
 
 Package: nxclock
 Version: 1.0
@@ -80,6 +98,7 @@ Filename: pool/main/nxclock
 Size: 1012576
 MD5sum: 807cc9494e22eeac501a8e688137d405
 DestDir: bin
+libc: no
 
 Package: nxeyes
 Version: 1.0
@@ -88,6 +107,7 @@ Filename: pool/main/nxeyes
 Size: 938648
 MD5sum: 8912040111ab8b7a8fe5c241c709aafe
 DestDir: bin
+libc: no
 
 Package: nxkbd
 Version: 1.0
@@ -96,6 +116,7 @@ Filename: pool/main/nxkbd
 Size: 864432
 MD5sum: 5d0690f30e0e404ca906188b709301b0
 DestDir: bin
+libc: no
 
 Package: nxlaunch
 Version: 1.0
@@ -104,6 +125,7 @@ Filename: pool/main/nxlaunch
 Size: 872752
 MD5sum: e4e3275bb948a811f1920f499b3cedc3
 DestDir: bin
+libc: no
 
 Package: nxmine
 Version: 1.0
@@ -112,6 +134,7 @@ Filename: pool/main/nxmine
 Size: 876936
 MD5sum: c6173a31f9e318c55d9f7c10ac702637
 DestDir: bin
+libc: no
 
 Package: nxterm
 Version: 1.0
@@ -120,6 +143,7 @@ Filename: pool/main/nxterm
 Size: 883120
 MD5sum: d7e571708c45f191b8ec89178a19af31
 DestDir: bin
+libc: no
 
 Package: nxtetris
 Version: 1.0
@@ -128,6 +152,7 @@ Filename: pool/main/nxtetris
 Size: 909920
 MD5sum: 39d6eb3dbd0ff7f00a70ed19a8f714d7
 DestDir: bin
+libc: no
 
 Package: openssl
 Version: 1.0
@@ -136,6 +161,7 @@ Filename: pool/main/openssl
 Size: 8132528
 MD5sum: 659c5b5db6cda578f59352ab14ef3b36
 DestDir: bin
+libc: no
 
 Package: spm
 Version: 1.0
@@ -144,6 +170,7 @@ Filename: pool/main/spm
 Size: 9434051
 MD5sum: 2428c22506a26da3ed3efbf8541dbab3
 DestDir: bin
+libc: no
 
 
-# Total packages: 18
+# Total packages: 19
