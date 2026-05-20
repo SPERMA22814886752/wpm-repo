@@ -23,8 +23,8 @@ Package: time
 Version: 1.0
 Type: bin
 Filename: pool/main/lib/a/time
-Size: 1
-MD5sum: 68b329da9893e34099c7d8ad5cb9c940
+Size: 26
+MD5sum: d5933a1691e09b25bec27a56578de454
 DestDir: bin
 libc: no
 
