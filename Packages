@@ -28,15 +28,6 @@ MD5sum: d5933a1691e09b25bec27a56578de454
 DestDir: bin
 libc: no
 
-Package: libcurl.a
-Version: 1.0
-Type: lib
-Filename: pool/main/lib/libcurl.a
-Size: 1457834
-MD5sum: 1faea57730563561109d0efaee07d947
-DestDir: lib
-libc: no
-
 Package: libcurl.la
 Version: 1.0
 Type: la
@@ -200,4 +191,4 @@ DestDir: bin
 libc: no
 
 
-# Total packages: 22
+# Total packages: 21
