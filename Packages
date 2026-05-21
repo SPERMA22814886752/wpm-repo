@@ -19,6 +19,15 @@ MD5sum: dd938b485d28c9e3938501d9e8b13730
 DestDir: bin
 libc: no
 
+Package: gcc
+Version: 1.0
+Type: dir
+Filename: pool/main/gcc.tar.gz
+Size: 73463777
+MD5sum: b9db2f23bf0e5ab03bafbcdb1019248e
+DestDir: /
+libc: no
+
 Package: libcurl.a
 Version: 1.0
 Type: lib
@@ -191,4 +200,4 @@ DestDir: bin
 libc: no
 
 
-# Total packages: 21
+# Total packages: 22
