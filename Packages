@@ -37,6 +37,24 @@ MD5sum: 2468c70860099284ed15b8e384f415a7
 DestDir: lib
 libc: no
 
+Package: time
+Version: 1.0
+Type: bin
+Filename: pool/main/lib/so/htop/time
+Size: 29
+MD5sum: 4a4537096d3669e7baf0fced44657989
+DestDir: bin
+libc: no
+
+Package: time
+Version: 1.0
+Type: bin
+Filename: pool/main/lib/so/time
+Size: 29
+MD5sum: 4a4537096d3669e7baf0fced44657989
+DestDir: bin
+libc: no
+
 Package: lynx
 Version: 1.0
 Type: bin
@@ -173,4 +191,4 @@ DestDir: bin
 libc: no
 
 
-# Total packages: не мало
+# Total packages: 21
