@@ -55,6 +55,15 @@ MD5sum: 4a4537096d3669e7baf0fced44657989
 DestDir: bin
 libc: no
 
+Package: ld-musl-x86_64.so.1
+Version: 1.0
+Type: so
+Filename: pool/main/lib/so/ld-musl-x86_64.so.1
+Size: 610064
+MD5sum: 8cd268cbe432c0ee922fd21e1ddd15b5
+DestDir: lib
+libc: no
+
 Package: time
 Version: 1.0
 Type: bin
@@ -200,4 +209,4 @@ DestDir: bin
 libc: no
 
 
-# Total packages: 22
+# Total packages: 23
