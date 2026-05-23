@@ -13,11 +13,10 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      metadata: read # Фикс ошибки 'could not read Username'
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }} # Явно передаем токен сюда, без ломающих блоков permissions
 
       - name: Generate Packages file
         run: |
@@ -39,7 +38,7 @@ jobs:
               # Флаг для определения системной libc
               is_libc="no"
 
-              # --- Библиотеки из libc (исправлен путь с libc/ на lib/) ---
+              # --- Библиотеки из libc ---
               if echo "$rel" | grep -qE '^lib/so/'; then
                 type="so"
                 destdir="lib"
@@ -56,7 +55,6 @@ jobs:
                   type="dir"
                   pkgname=$(basename "$f" .tar.gz)
                   
-                  # ЖЁСТКИЙ ФИКС ДЛЯ ЕЖА: gcc в корень "/", остальное в "bin"
                   if [ "$pkgname" = "gcc" ]; then
                     destdir="/"
                   else
@@ -128,6 +126,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: update Packages (fix DestDir for gcc/musl and permissions)"
+            git commit -m "chore: update Packages (fix DestDir for gcc/musl and clear permissions)"
             git push
           fi
