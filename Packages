@@ -30,12 +30,12 @@ libc: no
 
 Package: libcurl.a
 Version: 1.0
-Type: lib
+Type: a
 Filename: pool/main/lib/a/libcurl.a
 Size: 1457834
 MD5sum: 1faea57730563561109d0efaee07d947
 DestDir: lib
-libc: no
+libc: yes
 
 Package: libcurl.la
 Version: 1.0
@@ -48,21 +48,21 @@ libc: no
 
 Package: time
 Version: 1.0
-Type: bin
+Type: so
 Filename: pool/main/lib/so/htop/time
 Size: 29
 MD5sum: 4a4537096d3669e7baf0fced44657989
-DestDir: bin
-libc: no
+DestDir: lib
+libc: yes
 
-Package: time
+Package: ld-musl-x86_64.so.1
 Version: 1.0
-Type: bin
-Filename: pool/main/lib/so/time
-Size: 29
-MD5sum: 4a4537096d3669e7baf0fced44657989
-DestDir: bin
-libc: no
+Type: so
+Filename: pool/main/lib/so/ld-musl-x86_64.so.1
+Size: 806128
+MD5sum: c033430a808a1311fb095189486fe74b
+DestDir: lib
+libc: yes
 
 Package: lynx
 Version: 1.0
