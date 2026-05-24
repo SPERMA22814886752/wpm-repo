@@ -100,15 +100,6 @@ MD5sum: 256568532927c7a06c80ff2bb86d0b8a
 DestDir: bin
 libc: no
 
-Package: nxlaunch
-Version: 1.0
-Type: bin
-Filename: pool/main/nxlaunch
-Size: 872752
-MD5sum: e4e3275bb948a811f1920f499b3cedc3
-DestDir: bin
-libc: no
-
 Package: nxmine
 Version: 1.0
 Type: bin
@@ -155,4 +146,4 @@ DestDir: bin
 libc: no
 
 
-# Total packages: 17
+# Total packages: 16
