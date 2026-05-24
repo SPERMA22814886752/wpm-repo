@@ -100,24 +100,6 @@ MD5sum: 256568532927c7a06c80ff2bb86d0b8a
 DestDir: bin
 libc: no
 
-Package: nxeyes
-Version: 1.0
-Type: bin
-Filename: pool/main/nxeyes
-Size: 938648
-MD5sum: 8912040111ab8b7a8fe5c241c709aafe
-DestDir: bin
-libc: no
-
-Package: nxkbd
-Version: 1.0
-Type: bin
-Filename: pool/main/nxkbd
-Size: 864432
-MD5sum: 5d0690f30e0e404ca906188b709301b0
-DestDir: bin
-libc: no
-
 Package: nxlaunch
 Version: 1.0
 Type: bin
@@ -173,4 +155,4 @@ DestDir: bin
 libc: no
 
 
-# Total packages: 19
+# Total packages: 17
