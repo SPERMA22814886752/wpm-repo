@@ -10,6 +10,15 @@ MD5sum: 0d65dfa526bcdda95017275e833009ac
 DestDir: bin
 libc: no
 
+Package: dropbear
+Version: 1.0
+Type: dir
+Filename: pool/main/dropbear.tar.gz
+Size: 498535
+MD5sum: cd7dd79582dcd305745491f05844f2c0
+DestDir: bin
+libc: no
+
 Package: eiwd
 Version: 1.0
 Type: bin
@@ -137,4 +146,4 @@ DestDir: bin
 libc: no
 
 
-# Total packages: 15
+# Total packages: 16
