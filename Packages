@@ -82,6 +82,15 @@ MD5sum: bddf0602a1178014be31a840a0b0c7e9
 DestDir: bin
 libc: no
 
+Package: nanox
+Version: 1.0
+Type: dir
+Filename: pool/main/nanox.tar.gz
+Size: 3769272
+MD5sum: f92470320287ffe2c6d3175eccde31e3
+DestDir: bin
+libc: no
+
 Package: neofetch
 Version: 1.0
 Type: bin
@@ -119,4 +128,4 @@ DestDir: bin
 libc: no
 
 
-# Total packages: 13
+# Total packages: 14
