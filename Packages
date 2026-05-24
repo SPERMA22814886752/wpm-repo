@@ -100,15 +100,6 @@ MD5sum: 256568532927c7a06c80ff2bb86d0b8a
 DestDir: bin
 libc: no
 
-Package: nxcalc
-Version: 1.0
-Type: bin
-Filename: pool/main/nxcalc
-Size: 913728
-MD5sum: c684ec8134f004c5422d3e929c0932ad
-DestDir: bin
-libc: no
-
 Package: nxclock
 Version: 1.0
 Type: bin
@@ -191,4 +182,4 @@ DestDir: bin
 libc: no
 
 
-# Total packages: 21
+# Total packages: 20
