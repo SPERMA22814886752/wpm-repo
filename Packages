@@ -127,5 +127,14 @@ MD5sum: 2428c22506a26da3ed3efbf8541dbab3
 DestDir: bin
 libc: no
 
+Package: wpa_supplicant
+Version: 1.0
+Type: dir
+Filename: pool/main/wpa_supplicant.tar.gz
+Size: 2750961
+MD5sum: 4546b9f6d38ea4b99bb213dde6a9b093
+DestDir: bin
+libc: no
 
-# Total packages: 14
+
+# Total packages: 15
