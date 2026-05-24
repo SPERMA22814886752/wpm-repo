@@ -100,15 +100,6 @@ MD5sum: 256568532927c7a06c80ff2bb86d0b8a
 DestDir: bin
 libc: no
 
-Package: nxclock
-Version: 1.0
-Type: bin
-Filename: pool/main/nxclock
-Size: 1012576
-MD5sum: 807cc9494e22eeac501a8e688137d405
-DestDir: bin
-libc: no
-
 Package: nxeyes
 Version: 1.0
 Type: bin
@@ -182,4 +173,4 @@ DestDir: bin
 libc: no
 
 
-# Total packages: 20
+# Total packages: 19
