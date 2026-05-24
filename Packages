@@ -100,15 +100,6 @@ MD5sum: 256568532927c7a06c80ff2bb86d0b8a
 DestDir: bin
 libc: no
 
-Package: nxtetris
-Version: 1.0
-Type: bin
-Filename: pool/main/nxtetris
-Size: 909920
-MD5sum: 39d6eb3dbd0ff7f00a70ed19a8f714d7
-DestDir: bin
-libc: no
-
 Package: openssl
 Version: 1.0
 Type: bin
@@ -128,4 +119,4 @@ DestDir: bin
 libc: no
 
 
-# Total packages: 14
+# Total packages: 13
