@@ -100,15 +100,6 @@ MD5sum: 256568532927c7a06c80ff2bb86d0b8a
 DestDir: bin
 libc: no
 
-Package: nxmine
-Version: 1.0
-Type: bin
-Filename: pool/main/nxmine
-Size: 876936
-MD5sum: c6173a31f9e318c55d9f7c10ac702637
-DestDir: bin
-libc: no
-
 Package: nxterm
 Version: 1.0
 Type: bin
@@ -146,4 +137,4 @@ DestDir: bin
 libc: no
 
 
-# Total packages: 16
+# Total packages: 15
