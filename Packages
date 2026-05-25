@@ -74,13 +74,13 @@ DestDir: lib
 libc: yes
 
 Package: linux-kernel
-Version: 6.15
+Version: 1.0
 Type: kernel
 Filename: pool/main/linux-kernel.tar.gz
 Size: 23737387
 MD5sum: 0409df67afc69dac8f38173361c6466c
 DestDir: /
-StripComponents: 1
+StripComponents: 2
 libc: no
 
 Package: lynx
