@@ -80,7 +80,7 @@ Filename: pool/main/linux-kernel.tar.gz
 Size: 23737387
 MD5sum: 0409df67afc69dac8f38173361c6466c
 DestDir: /
-StripComponents: 2
+StripComponents: 1
 libc: no
 
 Package: lynx
