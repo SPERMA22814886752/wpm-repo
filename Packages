@@ -73,6 +73,15 @@ MD5sum: c033430a808a1311fb095189486fe74b
 DestDir: lib
 libc: yes
 
+Package: linux-kernel
+Version: 1.0
+Type: dir
+Filename: pool/main/linux-kernel.tar.gz
+Size: 23737387
+MD5sum: 0409df67afc69dac8f38173361c6466c
+DestDir: bin
+libc: no
+
 Package: lynx
 Version: 1.0
 Type: bin
@@ -146,4 +155,4 @@ DestDir: bin
 libc: no
 
 
-# Total packages: 16
+# Total packages: 17
