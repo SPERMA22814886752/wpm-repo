@@ -110,12 +110,13 @@ DestDir: lib
 libc: yes
 
 Package: linux-kernel
-Version: 1.0
-Type: dir
+Version: 6.15.0
+Type: kernel
 Filename: pool/main/linux-kernel.tar.gz
 Size: 23739968
 MD5sum: 24d9bb8d58b430c0079548da066141f8
-DestDir: bin
+DestDir: /
+StripComponents: 2
 libc: no
 
 Package: lsblk
