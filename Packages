@@ -100,15 +100,6 @@ MD5sum: c033430a808a1311fb095189486fe74b
 DestDir: lib
 libc: yes
 
-Package: libc.tar.zst
-Version: 1.0
-Type: so
-Filename: pool/main/lib/so/xorg/libc.tar.zst
-Size: 9179725
-MD5sum: 623360ea91ce6c573d16db53dfc8d8e9
-DestDir: lib
-libc: yes
-
 Package: time
 Version: 1.0
 Type: so
@@ -209,4 +200,4 @@ DestDir: bin
 libc: no
 
 
-# Total packages: 23
+# Total packages: 22
