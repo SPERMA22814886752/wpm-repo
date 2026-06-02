@@ -165,7 +165,7 @@ libc: no
 
 Package: neofetch
 Version: 1.0
-Type: bin
+Type: script
 Filename: pool/main/neofetch
 Size: 379618
 MD5sum: c31aedd69c068436456058bb301c18a6
@@ -215,7 +215,7 @@ Filename: pool/main/xorg.tar.gz
 Size: 16180505
 MD5sum: f17bd948402654304369294b30cce7ee
 DestDir: bin
-libc: no
+libc: so
 
 
 # Total packages: 24
