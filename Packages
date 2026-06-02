@@ -100,15 +100,6 @@ MD5sum: c033430a808a1311fb095189486fe74b
 DestDir: lib
 libc: yes
 
-Package: libc.tar.zst
-Version: 1.0
-Type: so
-Filename: pool/main/lib/so/xorg/libc.tar.zst
-Size: 11248177
-MD5sum: 44f667f6958e4966b8d7d050ae6f805a
-DestDir: lib
-libc: yes
-
 Package: time
 Version: 1.0
 Type: so
@@ -165,7 +156,7 @@ libc: no
 
 Package: neofetch
 Version: 1.0
-Type: script
+Type: bin
 Filename: pool/main/neofetch
 Size: 379618
 MD5sum: c31aedd69c068436456058bb301c18a6
@@ -215,7 +206,7 @@ Filename: pool/main/xorg.tar.gz
 Size: 16180505
 MD5sum: f17bd948402654304369294b30cce7ee
 DestDir: bin
-libc: so
+libc: no
 
 
-# Total packages: 24
+# Total packages: 23
