@@ -91,15 +91,6 @@ MD5sum: 2468c70860099284ed15b8e384f415a7
 DestDir: lib
 libc: no
 
-Package: time
-Version: 1.0
-Type: so
-Filename: pool/main/lib/so/htop/time
-Size: 29
-MD5sum: 4a4537096d3669e7baf0fced44657989
-DestDir: lib
-libc: yes
-
 Package: ld-musl-x86_64.so.1
 Version: 1.0
 Type: so
@@ -110,13 +101,12 @@ DestDir: lib
 libc: yes
 
 Package: linux-kernel
-Version: 6.15.0
-Type: kernel
+Version: 1.0
+Type: dir
 Filename: pool/main/linux-kernel.tar.gz
 Size: 23739968
 MD5sum: 24d9bb8d58b430c0079548da066141f8
-DestDir: /
-StripComponents: 2
+DestDir: bin
 libc: no
 
 Package: lsblk
@@ -201,4 +191,4 @@ DestDir: bin
 libc: no
 
 
-# Total packages: 22
+# Total packages: 21
