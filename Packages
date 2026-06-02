@@ -208,5 +208,14 @@ MD5sum: 4546b9f6d38ea4b99bb213dde6a9b093
 DestDir: bin
 libc: no
 
+Package: xorg
+Version: 1.0
+Type: dir
+Filename: pool/main/xorg.tar.gz
+Size: 16180505
+MD5sum: f17bd948402654304369294b30cce7ee
+DestDir: bin
+libc: no
 
-# Total packages: 23
+
+# Total packages: 24
